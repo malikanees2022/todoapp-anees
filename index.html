@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link
+      href="//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text"
+      rel="stylesheet" type="text/css"/>
+      <script src="script.js"></script>
+</head>
+<body>
+   <div class="mobile">
+    <!--main div start mobile-->
+    <!--battery+time status bar-->
+<div class="statusbar">
+    <img src="/photos/default.png" alt="">
+</div>
+<!--main second div innermobile-->
+<div class="innermobile" id="hideicon">
+<!--cat image-->
+<div class="navbar">
+    <img src="/photos/Left Icon.png" alt="">
+</div><br>
+<!--maintext div  start-->
+<div class="maintext" id="hide">
+    <div class="today"><h1>Today</h1></div>
+<div class="hidetext" id="hidebtn" onclick="hidebtn()"><h1>Hide completed</h1></div>
+
+<div class="para1" id="para1">
+    <input type="checkbox" class="button" id="checkbtn" onclick="blurpara()">
+    <div class="lorembox" id="lorembox1">
+        <h1 id="h1box">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        <h2 id="h1time">12:42 PM</h2>
+    </div>
+</div>
+
+<div class="para2" id="para2">
+    <input type="checkbox" class="button" id="checkbtn2" onclick="blurpara1()">
+    <div class="lorembox" id="lorembox2">
+        <h1 id="h2box">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        <h2 id="h2time">12:42 PM</h2>
+    </div>
+</div>
+
+<div class="para3" id="para3">
+    <input type="checkbox" class="button" id="checkbtn3" onclick="blurpara2()">
+    <div class="lorembox" id="lorembox3">
+        <h1 id="h3box">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        <h2 id="h3time">12:42 PM</h2>
+    </div>
+</div>
+<div class="tomorrow"><h1>Tomorrow</h1></div>
+<div class="para4">
+    <input type="checkbox" class="button">
+    <div class="lorembox">
+        <h1 id="h4box">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        <h2 id="h4time">12:42 PM</h2>
+    </div>
+</div>
+<div class="para5">
+    <input type="checkbox" class="button">
+    <div class="lorembox">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        <h2>12:42 PM</h2>
+    </div>
+</div>
+
+
+    <!--maintext end-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--plus button-->
+<div class="btn">
+    <button id="mybtn" onclick="myfunction()">
+        +
+    </button>
+</div>
+<!--footer line-->
+
+
+</div>
+ <!--ADD TAsk Page starts-->
+ <div id="secondpage">
+ <div class="taskpage">
+    <div class="line"></div>
+    <!--task page end-->
+   </div>
+   <div class="whitebox">
+   <div class="navbar1">
+<div class="close" id="close1" onclick="closepopup()">
+    <img src="/photos/chevron.left.png" alt="">
+    <h1>Close</h1>
+</div>
+<h2>Task</h2>
+   </div>
+   <div class="addatask">
+    <h1>Add a task</h1>
+   </div>
+   <div class="name">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="lorem ipsum dolor">
+   </div>
+   <Div class="hour">
+    <label for="hour">Hour</label>
+    <input type="time" id="time">
+   </Div>
+   <div class="todaybtn">
+    <h1>Today</h1>
+    <label class="switch">
+        <input type="checkbox" id="slidebtn">
+        <span class="slider round"></span>
+      </label>
+   </div>
+   <div class="done" id="donebtn" onclick="done()">
+    <h1>Done</h1>
+   </div>
+   <div class="text2"><h1>If you disable today, the task will be considered as tomorrow</h1></div>
+</div>
+</div>
+
+<!--footer line-->
+   <footer>
+    <img src="/photos/Bottom.png" alt="">
+</footer>
+<!--main div end-->
+   </div>
+
+
+
+  
+</body>
+</html>
